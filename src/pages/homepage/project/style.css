@@ -1,0 +1,50 @@
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    gap: 10px 20px;
+    margin: 0 auto;
+}
+
+.card:hover{
+    margin-top: 10px;
+    box-shadow: 0 40px 50px 0 rgb(145, 145, 145);
+}
+
+.card {
+    padding: 20px 30px;
+    margin: 50px 30px;
+    width: 300px;
+    height: 320px;
+    box-shadow: 0 0 30px 0 #ccc;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skills{
+    margin: 3px 8px;
+    font-weight: 700;
+}
+
+.skillContainer{
+    margin-bottom: 10px;
+}
+
+.projectLink{
+    margin: 0 10px;
+}
+.probutton{
+    border: none;
+    background-color: white;
+}
+.prolink:hover{
+    text-decoration: none;
+}
+.prolink:link { 
+    text-decoration: none; 
+}
+.prolink:visited { text-decoration: none; }
+
+.prolink:active { text-decoration: none; }

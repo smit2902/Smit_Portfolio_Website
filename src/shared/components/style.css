@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 30px;
+    justify-content: space-between;
+    background-color: rgb(58, 58, 58);
+}
+
+.menuItems {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    margin-right: 1.5em;
+    display: flex;
+    list-style-type: none;
+}
+.navList-item:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navList-item:link { 
+    text-decoration: none; 
+}
+.navList-item:visited { text-decoration: none; }
+
+.navList-item{
+    margin: 0px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #27df2d;
+}
+.ny{
+    color: #27df2d;
+    font-size: 50px;
+    white-space: 5px;
+    margin-left: 60px;
+}
+.ny:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.ny:link { 
+    text-decoration: none; 
+}
+.ny:visited { text-decoration: none; }

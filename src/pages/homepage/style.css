@@ -1,0 +1,67 @@
+.mainHomePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    /* background-image: url("https://us.123rf.com/450wm/peshkova/peshkova1912/peshkova191213132/135761600-empty-spot-on-white-table-full-of-office-tools-mock-up-3d-rendering.jpg?ver=6"); */
+    background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-design_23-2149066048.jpg?t=st=1657476795~exp=1657477395~hmac=ba756240ff1ac049bece3d4d59039e4a223cd8ce9b4bd13a5944ca07505df7a9&w=996");
+    background-size: 100vw 700px;
+    /* width: 100%; */
+    height: 90vh;
+    /* background-size: "cover"; */
+    background-repeat: no-repeat;
+    /* background-color: #92b3f6; */
+}
+
+.mainHomePage h1{
+    font-size: 4rem;
+}
+h2{
+    color: rgb(17, 118, 89);
+}
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    color: #109214;
+    font-size: 5rem;
+}
+.desc{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 600px;
+    color: rgb(107, 40, 11);
+}
+.icon{
+    width: 25px;
+    margin: 20px 13px;
+}
+.icon:hover{
+    width: 30px;
+}
+.resume{
+    margin-top: 20px ;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: #92b3f6;
+}
+.resume a{
+    color: black;
+}
+.resume a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.resume a:link{
+    text-decoration: none;
+}
+.resume:hover{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 5px 0 #8893aa;
+}
+.footer{
+    font-weight: 500;
+    color: #109214;
+}
+.footer:hover{
+    text-decoration: underline;
+}
