@@ -34,7 +34,7 @@ const SkillData = [{
 
   const SkillContainer = () => {
     return (
-        <div className="skillContainer">
+        <div className="skiContainer">
             {
                 SkillData.map(SkillItem=>{
                     return <Skills SkillItem={SkillItem}/>

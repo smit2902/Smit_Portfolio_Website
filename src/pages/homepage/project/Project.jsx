@@ -1,16 +1,16 @@
 import React from 'react'
 
 const Project = ({ projectItem }) => {
-    const { name, description, skills, github, linkedIn, hrefer } = projectItem;
+    const { name, description, skills1, github, codesandbox, hrefer } = projectItem;
 
     return (
         <button className='probutton'>
             <a className='prolink' target="_blank" href={hrefer}>
                 <div className="card">
                     <h2>{name}</h2>
-                    <p>{description}</p>
+                    <p className='detail'>{description}</p>
                     <div className="skillContainer">
-                        {skills.map(skill => (
+                        {skills1.map(skill => (
                             <span className="skills">{skill}</span>
                         ))}
                     </div>
@@ -20,8 +20,8 @@ const Project = ({ projectItem }) => {
                         </a>
                     </span>
                     <span>
-                        <a href={linkedIn}>
-                            <img className='icon' src='https://cdn-icons-png.flaticon.com/128/145/145807.png'></img>
+                        <a href={codesandbox}>
+                            <img className='icon' src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iz3jx9mqvg387q6xlmur'></img>
                         </a>
                     </span>
                 </div>

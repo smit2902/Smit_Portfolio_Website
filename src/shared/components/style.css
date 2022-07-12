@@ -37,16 +37,17 @@
     color: #27df2d;
 }
 .ny{
-    color: #27df2d;
     font-size: 50px;
-    white-space: 5px;
     margin-left: 60px;
 }
-.ny:hover{
+.nylink{
+    color: #27df2d;
+}
+.nylink:hover{
     text-decoration: none;
     color: #ffffff;
 }
-.ny:link { 
+.nylink:link { 
     text-decoration: none; 
 }
-.ny:visited { text-decoration: none; }
+.nylink:visited { text-decoration: none; }

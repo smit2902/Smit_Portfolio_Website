@@ -5,7 +5,7 @@
     padding-top: 100px;
     /* background-image: url("https://us.123rf.com/450wm/peshkova/peshkova1912/peshkova191213132/135761600-empty-spot-on-white-table-full-of-office-tools-mock-up-3d-rendering.jpg?ver=6"); */
     background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-design_23-2149066048.jpg?t=st=1657476795~exp=1657477395~hmac=ba756240ff1ac049bece3d4d59039e4a223cd8ce9b4bd13a5944ca07505df7a9&w=996");
-    background-size: 100vw 700px;
+    background-size: 100vw 90vh;
     /* width: 100%; */
     height: 90vh;
     /* background-size: "cover"; */
@@ -23,6 +23,17 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     color: #109214;
     font-size: 5rem;
+}
+.mail{
+    font-size: 20px;
+    font-weight: 700;
+}
+.mail a{
+    color: #109214;
+}
+.mail a:hover{
+    text-decoration: none;
+    color: #337ab7;
 }
 .desc{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

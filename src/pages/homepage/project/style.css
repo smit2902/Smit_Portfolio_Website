@@ -23,6 +23,11 @@
     border-radius: 10px;
 }
 
+.detail{
+    margin-top: 20px;
+    height: 90px;
+}
+
 .skills{
     margin: 3px 8px;
     font-weight: 700;

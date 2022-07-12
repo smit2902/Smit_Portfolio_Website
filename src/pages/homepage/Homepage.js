@@ -9,6 +9,7 @@ export const Homepage = () => {
     <>
       <div className='mainHomePage'>
         <h1>Hi, I am <span className='name'>Yash Nayak.</span></h1>
+        <span className='mail'>Email : <a href = "mailto: nayakyash2209@gmail.com" target="_blank"> nayakyash2209@gmail</a></span>
         <h2>Learning ReactJs from Vnurture Technology.</h2>
         <br />
         <p className='desc'>I am from Silver Oak College Of Engineering & Technology <br />

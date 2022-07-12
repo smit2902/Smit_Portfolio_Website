@@ -4,27 +4,27 @@ import './style.css'
 
 const projectData = [{
     hrefer:"https://1n52td.csb.app/",
-    name:"Project 1",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
+    name:"Digital Clock",
+    description:"This is a digital clock made by using hooks-api of React also show days",
+    skills1:['React','Javascript','Hooks'],
     github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
+    codesandbox:"https://codesandbox.io/dashboard/home"
 },
 {
     hrefer:"https://ln330k.csb.app/",
-    name:"Project 2",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
+    name:"Button Game",
+    description:"This is a one type of game in which You can click any of the 3 buttons out of 9 and if total goes greater than 10 you will win or you lose using React",
+    skills1:['React','Javascript','States'],
     github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
+    codesandbox:"https://codesandbox.io/dashboard/home"
 },
 {
     hrefer:"https://vshr7y.csb.app/",
-    name:"Project 3",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills: ['SASS','TypeScript','React'],
+    name:"Git Api",
+    description:"This is a one type of basic git api which can show you the details about the person whom you want to search",
+    skills1: ['React','Git','Github'],
     github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
+    codesandbox:"https://codesandbox.io/dashboard/home"
 },
 ];
 
