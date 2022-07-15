@@ -2,18 +2,26 @@
   display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    gap: 20px 35px;
+    margin: 60px 40px;
 }
+
 .skibutton{
-  font-size: xx-large;
-  margin: 60px 20px;
+  margin: 20px 15px;
+  height: 48px;
+  width: 155px;
 }
 .skibutton:hover{
   box-shadow: 0 15px 10px 0 #8893aa;
   background-color: rgb(48, 31, 234);
+  margin-top: 0px;
 }
 .skilink{
   font-family:'Times New Roman', Times, serif;
   color: black;
+  font-size: xx-large;
 }
 .skilink:hover{
   color: rgb(255, 255, 255);

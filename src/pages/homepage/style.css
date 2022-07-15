@@ -2,43 +2,60 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 100px;
-    /* background-image: url("https://us.123rf.com/450wm/peshkova/peshkova1912/peshkova191213132/135761600-empty-spot-on-white-table-full-of-office-tools-mock-up-3d-rendering.jpg?ver=6"); */
-    background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-design_23-2149066048.jpg?t=st=1657476795~exp=1657477395~hmac=ba756240ff1ac049bece3d4d59039e4a223cd8ce9b4bd13a5944ca07505df7a9&w=996");
-    background-size: 100vw 90vh;
-    /* width: 100%; */
-    height: 90vh;
-    /* background-size: "cover"; */
-    background-repeat: no-repeat;
-    /* background-color: #92b3f6; */
+    padding: 20px;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    z-index: 2;
+    width: 50vw;
+  background-color: rgba(255, 255, 255, 30%);
+  border: 2px solid black;
 }
 
-.mainHomePage h1{
-    font-size: 4rem;
+.backimage{
+    background-image: url("https://i.pinimg.com/originals/de/b1/ca/deb1ca95c8432d9511b984de749a9787.jpg");
+    /* background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-design_23-2149066048.jpg?t=st=1657476795~exp=1657477395~hmac=ba756240ff1ac049bece3d4d59039e4a223cd8ce9b4bd13a5944ca07505df7a9&w=996"); */
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    /* transform: rotate(90deg); */
+     background-size: "cover"; 
+    background-repeat: no-repeat;
+    filter: blur(3px);
+
 }
+
 h2{
-    color: rgb(17, 118, 89);
+    font-family: 'Times New Roman', Times, serif;
+    color: #000084;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.hi{
+    font-weight: 500;
 }
 .name {
     font-family: 'Times New Roman', Times, serif;
-    color: #109214;
-    font-size: 5rem;
+    color: #000084;
+    font-size: 45px;
 }
 .mail{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
 }
 .mail a{
-    color: #109214;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000084;
+    font-weight: 500;
 }
 .mail a:hover{
     text-decoration: none;
-    color: #337ab7;
+    color: #ffffff;
 }
 .desc{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 600px;
-    color: rgb(107, 40, 11);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 .icon{
     width: 25px;
@@ -52,26 +69,26 @@ h2{
     padding: 5px;
     border-radius: 10px;
     color: black;
-    background-color: #92b3f6;
+    background-color: #000084;
 }
 .resume a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .resume a:hover{
     text-decoration: none;
-    color: blue;
+    color: #ffffff;
 }
 .resume a:link{
     text-decoration: none;
 }
 .resume:hover{
-    margin-top: 10px;
+    margin-top:15px;
     margin-bottom: 5px;
-    box-shadow: 0 10px 5px 0 #8893aa;
+    box-shadow: 0 10px 5px 0 #2e2e2e;
 }
 .footer{
     font-weight: 500;
-    color: #109214;
+    color: #000084;
 }
 .footer:hover{
     text-decoration: underline;

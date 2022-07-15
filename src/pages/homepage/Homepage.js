@@ -7,10 +7,11 @@ import ArticleIcon from '@mui/icons-material/Article';
 export const Homepage = () => {
   return (
     <>
+    <div className='backimage'></div>
       <div className='mainHomePage'>
-        <h1>Hi, I am <span className='name'>Yash Nayak.</span></h1>
+        <h1 className='hi'>Hi, I am <span className='name'>Yash Nayak.</span></h1>
         <span className='mail'>Email : <a href = "mailto: nayakyash2209@gmail.com" target="_blank"> nayakyash2209@gmail</a></span>
-        <h2>Learning ReactJs from Vnurture Technology.</h2>
+        <h2>Front End Web Developer.</h2>
         <br />
         <p className='desc'>I am from Silver Oak College Of Engineering & Technology <br />
           Right now i am doing summer internship in Vnurture Technology <br />

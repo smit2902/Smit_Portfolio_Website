@@ -16,12 +16,12 @@ const Project = ({ projectItem }) => {
                     </div>
                     <span className="projectLink">
                         <a href={github}>
-                            <img className='icon' src="https://cdn-icons-png.flaticon.com/128/733/733553.png"></img>
+                            <img className='icon' src="https://cdn-icons-png.flaticon.com/128/733/733609.png" target="_blanak"></img>
                         </a>
                     </span>
                     <span>
                         <a href={codesandbox}>
-                            <img className='icon' src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iz3jx9mqvg387q6xlmur'></img>
+                            <img className='icon' src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iz3jx9mqvg387q6xlmur' target="_blanak"></img>
                         </a>
                     </span>
                 </div>

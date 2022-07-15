@@ -1,24 +1,23 @@
 .header {
     display: flex;
     align-items: center;
-    height: 10%;
-    max-width: 100%;
-    width: 100%;
+    height: 80px;
+    width: 100vw;
     margin: 0 auto;
-    padding-right: 30px;
     justify-content: space-between;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(56, 56, 56);
 }
 
 .menuItems {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .navList {
-    margin-right: 1.5em;
-    display: flex;
+    margin-right: 5vw;
     list-style-type: none;
+    padding-top: 1vh;
 }
 .navList-item:hover{
     text-decoration: none;
@@ -26,22 +25,29 @@
 }
 .navList-item:link { 
     text-decoration: none; 
+    color: white;
 }
-.navList-item:visited { text-decoration: none; }
+.navList-item:visited { 
+    text-decoration: none; 
+}
+.navList-item:active{
+    text-decoration: none;
+    color: white;
+}
 
 .navList-item{
     margin: 0px 20px;
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #27df2d;
+    color: #0586d7;
 }
 .ny{
     font-size: 50px;
-    margin-left: 60px;
+    margin: 0.5vh 5vw;
 }
 .nylink{
-    color: #27df2d;
+    color: #027bc5;
 }
 .nylink:hover{
     text-decoration: none;
@@ -49,5 +55,12 @@
 }
 .nylink:link { 
     text-decoration: none; 
+    color: white;
 }
-.nylink:visited { text-decoration: none; }
+.nylink:visited {
+     text-decoration: none;    
+}
+.nylink:active{
+    text-decoration: none;
+    color: white;
+}
