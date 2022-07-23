@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 // import Button from '@mui/material/Button';
-import Pdf from './Yash_Nayak_Resume.pdf';
+import Pdf from './Smit_Resume.pdf';
 import ArticleIcon from '@mui/icons-material/Article';
 
 export const Homepage = () => {
@@ -9,8 +9,8 @@ export const Homepage = () => {
     <>
     <div className='backimage'></div>
       <div className='mainHomePage'>
-        <h1 className='hi'>Hi, I am <span className='name'>Yash Nayak.</span></h1>
-        <span className='mail'>Email : <a href = "mailto: nayakyash2209@gmail.com" target="_blank"> nayakyash2209@gmail</a></span>
+        <h1 className='hi'>Hi, I am <span className='name'>Smit Shah.</span></h1>
+        <span className='mail'>Email : <a href = "mailto: smithsha2902@gmail.com" target="_blank"> smithshah2902@gmail</a></span>
         <h2>Front End Web Developer.</h2>
         <br />
         <p className='desc'>I am from Silver Oak College Of Engineering & Technology <br />
@@ -26,18 +26,18 @@ export const Homepage = () => {
         </div>
         <div className='links'>
           <span>
-            <a href="https://github.com/yash22nayak" target="_blank">
+            <a href="https://github.com/smit2902" target="_blank">
               <img className='icon' src="https://cdn-icons-png.flaticon.com/128/733/733609.png"></img>
             </a>
           </span>
           <span>
-            <a href="https://www.linkedin.com/in/yash-nayak-8537141a1/" >
+            <a href="https://www.linkedin.com/in/smitshah02/"  target="_blank">
               <img className='icon' src='https://cdn-icons-png.flaticon.com/128/2111/2111532.png'></img>
             </a>
           </span>
         </div>
         <footer className='footer'>
-          Copyright &copy; Yash_Nayak
+          Copyright &copy; Smit_Shah
         </footer>
       </div>
     </>

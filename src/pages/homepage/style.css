@@ -8,88 +8,107 @@
     left: 25vw;
     z-index: 2;
     width: 50vw;
-  background-color: rgba(255, 255, 255, 30%);
-  border: 2px solid black;
+    background-color: rgba(255, 255, 255, 30%);
+    border: 2px solid black;
 }
 
-.backimage{
-    background-image: url("https://i.pinimg.com/originals/de/b1/ca/deb1ca95c8432d9511b984de749a9787.jpg");
+.backimage {
+    /* background-image: url("https://i.pinimg.com/originals/de/b1/ca/deb1ca95c8432d9511b984de749a9787.jpg"); */
     /* background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-design_23-2149066048.jpg?t=st=1657476795~exp=1657477395~hmac=ba756240ff1ac049bece3d4d59039e4a223cd8ce9b4bd13a5944ca07505df7a9&w=996"); */
+    background-image: url(https://c8.alamy.com/comp/PF3PC9/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3PC9.jpg) ;
+    /* background-image: url(https://www.alamy.com/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-image215827705.html); */
     background-size: 100vw 100vh;
+    z-index: -1;
+    opacity: 0.8;
     width: 100vw;
     height: 100vh;
     /* transform: rotate(90deg); */
-     background-size: "cover"; 
+    background-size: "cover";
     background-repeat: no-repeat;
     filter: blur(3px);
 
 }
 
-h2{
+h2 {
     font-family: 'Times New Roman', Times, serif;
     color: #000084;
     font-weight: 500;
     margin-bottom: 0px;
 }
-.hi{
+
+.hi {
     font-weight: 500;
 }
+
 .name {
     font-family: 'Times New Roman', Times, serif;
     color: #000084;
     font-size: 45px;
 }
-.mail{
+
+.mail {
     font-size: 22px;
     font-weight: 700;
 }
-.mail a{
+
+.mail a {
     font-family: 'Times New Roman', Times, serif;
     color: #000084;
     font-weight: 500;
 }
-.mail a:hover{
+
+.mail a:hover {
     text-decoration: none;
     color: #ffffff;
 }
-.desc{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
-.icon{
+
+.icon {
     width: 25px;
     margin: 20px 13px;
 }
-.icon:hover{
+
+.icon:hover {
     width: 30px;
 }
-.resume{
-    margin-top: 20px ;
+
+.resume {
+    margin-top: 20px;
     padding: 5px;
     border-radius: 10px;
     color: black;
     background-color: #000084;
 }
-.resume a{
+
+.resume a {
     color: rgb(255, 255, 255);
 }
-.resume a:hover{
+
+.resume a:hover {
     text-decoration: none;
     color: #ffffff;
 }
-.resume a:link{
+
+.resume a:link {
     text-decoration: none;
 }
-.resume:hover{
-    margin-top:15px;
+
+.resume:hover {
+    margin-top: 15px;
     margin-bottom: 5px;
     box-shadow: 0 10px 5px 0 #2e2e2e;
 }
-.footer{
+
+.footer {
     font-weight: 500;
-    color: #000084;
+    color: #000000;
 }
-.footer:hover{
+
+.footer:hover {
     text-decoration: underline;
 }
